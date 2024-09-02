@@ -10,7 +10,7 @@
 <body>
     <section class="vh-100 bg-primary bg-gradient">
         <div class="container py-2 h-100">
-            <form action="/login" method="post" class="row justify-content-center align-items-center vh-100 was-validated">
+            <form action="/login" method="post" class="row justify-content-center align-items-center was-validated">
                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                     <div class="card shadow-2-strong">
                         <div class="card-header text-center">
@@ -43,11 +43,15 @@
                                 </label>
                             </div>
 
-                            <div class="d-grid gap-3">
+                            <div class="d-grid gap-2 mb-3">
                                 <button type="submit" class="btn btn-primary">Login</button>
                                 <hr>
                                 <button type="button" class="btn btn-danger"><span><i class="bi bi-google"></i> Google</button>
                                 <button type="button" class="btn btn-success"><span><i class="bi bi-fingerprint"> </i></span>Fingerprint</button>
+                            </div>
+
+                            <div>
+                                <label type="form-label" class="text-secondary">Don't have an account? <a href="#" class="text-light text-decoration-none">Register here</a></label>
                             </div>
                         </div>
                     </div>
