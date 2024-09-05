@@ -1,0 +1,17 @@
+.card:hover > .card-header {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 580px) {
+    .side-bar {
+      display: none;
+    }
+    .col-10 {
+      width: 100%;
+    }
+    .card {
+        max-width: 100%;
+    }
+}
+  
